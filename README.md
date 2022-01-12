@@ -13,7 +13,9 @@ First Shooter THREEJS<a name="TOP"></a>
 
 ### What is dat.GUI ? ###
 
-    dat. GUI is a lightweight graphical user interface developed by the Google Data Arts Team. With just a few lines of code, the library creates an interface that lets you modify Javascript variables and see the results on the fly, all without having to redeploy code.
+    dat. GUI is a lightweight graphical user interface developed by the Google Data Arts Team.
+    With just a few lines of code,the library creates an interface that lets you modify Javascript variables and see the results on the fly,
+    all without having to redeploy code.
 
 
 
