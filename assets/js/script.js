@@ -213,10 +213,10 @@ if (havePointerLock) {
     var element = document.body;
     var pointerlockchange = function(event) {
         if (document.pointerLockElement === element || document.mozPointerLockElement === element || document.webkitPointerLockElement === element) {
+            instructions.style.display = 'none';
             counter();
             setTimeout(function() {
                 controls.enabled = true;
-                instructions.style.display = 'none';
             }, 3000);
 
         } else {
